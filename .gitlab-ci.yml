@@ -1,0 +1,38 @@
+image: python:3.12
+
+stages:
+  - test
+  - deploy
+
+before_script:
+  - pip install --upgrade pip
+  - pip install -r requirements.txt
+
+test:
+  stage: test
+
+  script:
+    - pytest --alluredir=allure-results
+
+  artifacts:
+    when: always
+    paths:
+      - allure-results
+      - screenshots
+
+pages:
+  stage: deploy
+
+  script:
+    - apt-get update
+    - apt-get install -y default-jre wget unzip
+    - wget https://github.com/allure-framework/allure2/releases/download/2.29.0/allure-2.29.0.zip
+    - unzip allure-2.29.0.zip
+    - ./allure-2.29.0/bin/allure generate allure-results -o public
+
+  artifacts:
+    paths:
+      - public
+
+  only:
+    - main
