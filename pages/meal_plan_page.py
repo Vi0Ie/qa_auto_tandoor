@@ -330,7 +330,7 @@ class MealPlanPage(BasePage):
     def create_meal_plan(self):
 
         create_button = self.wait.until(
-            EC.presence_of_element_located(
+            EC.element_to_be_clickable(
                 self.CREATE_BUTTON
             )
         )
@@ -341,7 +341,7 @@ class MealPlanPage(BasePage):
         )
 
         self.wait.until(
-            EC.presence_of_element_located(
+            EC.element_to_be_clickable(
                 self.SAVE_BUTTON
             )
         )
