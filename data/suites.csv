@@ -1,17 +1,17 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","11719","test_view_meal_plan","tests","Thu May 21 12:36:39 UTC 2026","broken","Thu May 21 12:36:51 UTC 2026","","test_view_meal_plan","",""
-"","10667","test_delete_recipe","tests","Thu May 21 12:35:43 UTC 2026","passed","Thu May 21 12:35:53 UTC 2026","","test_api_client","",""
-"","754","test_get_recipes","tests","Thu May 21 12:35:33 UTC 2026","passed","Thu May 21 12:35:34 UTC 2026","","test_api_client","",""
+"","960","test_get_recipes","tests","Thu May 21 12:48:41 UTC 2026","passed","Thu May 21 12:48:42 UTC 2026","","test_api_client","",""
+"","22177","test_view_meal_plan","tests","Thu May 21 12:50:34 UTC 2026","broken","Thu May 21 12:50:56 UTC 2026","","test_view_meal_plan","",""
 "
 Checks that user can create meal plan,
 verify it via API and delete it successfully.
-","12254","Create and delete meal plan","tests","Thu May 21 12:36:00 UTC 2026","broken","Thu May 21 12:36:12 UTC 2026","","test_create_and_delete_meal_plan","",""
-"","0","test_api_client_headers","tests","Thu May 21 12:35:54 UTC 2026","passed","Thu May 21 12:35:54 UTC 2026","","test_api_client","",""
-"","549","test_get_recipes","tests","Thu May 21 12:36:25 UTC 2026","passed","Thu May 21 12:36:25 UTC 2026","","test_recipies","",""
-"","643","test_api_connection","tests","Thu May 21 12:35:53 UTC 2026","passed","Thu May 21 12:35:54 UTC 2026","","test_api_client","",""
-"","11784","test_shopping_list","tests","Thu May 21 12:36:26 UTC 2026","broken","Thu May 21 12:36:38 UTC 2026","","test_shopping_list_validation","",""
-"","9004","test_import_recipe","tests","Thu May 21 12:35:34 UTC 2026","passed","Thu May 21 12:35:43 UTC 2026","","test_api_client","",""
+","23814","Create and delete meal plan","tests","Thu May 21 12:49:21 UTC 2026","broken","Thu May 21 12:49:45 UTC 2026","","test_create_and_delete_meal_plan","",""
+"","10289","test_delete_recipe","tests","Thu May 21 12:48:51 UTC 2026","passed","Thu May 21 12:49:01 UTC 2026","","test_api_client","",""
+"","822","test_api_connection","tests","Thu May 21 12:49:01 UTC 2026","passed","Thu May 21 12:49:02 UTC 2026","","test_api_client","",""
+"","837","test_get_recipes","tests","Thu May 21 12:50:08 UTC 2026","passed","Thu May 21 12:50:09 UTC 2026","","test_recipies","",""
+"","0","test_api_client_headers","tests","Thu May 21 12:49:02 UTC 2026","passed","Thu May 21 12:49:02 UTC 2026","","test_api_client","",""
+"","9195","test_import_recipe","tests","Thu May 21 12:48:42 UTC 2026","passed","Thu May 21 12:48:51 UTC 2026","","test_api_client","",""
 "
 Checks that user can successfully login
 into Tandoor Recipes application.
-","11804","Successful user login","tests","Thu May 21 12:36:13 UTC 2026","broken","Thu May 21 12:36:24 UTC 2026","","test_login","",""
+","22321","Successful user login","tests","Thu May 21 12:49:45 UTC 2026","broken","Thu May 21 12:50:08 UTC 2026","","test_login","",""
+"","22228","test_shopping_list","tests","Thu May 21 12:50:10 UTC 2026","broken","Thu May 21 12:50:32 UTC 2026","","test_shopping_list_validation","",""
